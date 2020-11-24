@@ -1,10 +1,13 @@
 {
-    "name": "toma/fishing",
+    "name": "tomar/fishing",
     "authors": [
         {
             "name": "FasterThanIE",
             "email": "tomicawarr@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-0": {"": "App\\"}
+    }
 }
